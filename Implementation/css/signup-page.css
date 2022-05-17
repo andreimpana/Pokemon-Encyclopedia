@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
   }
@@ -30,17 +30,17 @@
   .navbar-custom{
     background-color: #C4C4C4;
     color: red;
-    }
+    } */
 
 /* Login User/Pass + Input box */
-.Label-Container{
+/* .Label-Container{
   position: absolute;
   left: 13%;
   width: 50%;
   top: 20%;
-}
+} */
 
-.input-info{
+/* .input-info{
   position: absolute;
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
@@ -50,16 +50,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0.75px black;
-}
+} */
 
-.emailaddress-field{
+/* .emailaddress-field{
   width:225px;
   position: absolute;
   left: 49%;
   top: 20%;
-}
+} */
 
-.username-field{
+/* .username-field{
   width:225px;
   position: absolute;
   left: 49%;
@@ -71,25 +71,25 @@
   position: absolute;
   left: 49%;
   top: 30%;
-}
-
+} */
+/* 
 .confirmpassword-field{
   width:225px;
   position: absolute;
   left: 49%;
   top: 35%;
-}
+} */
 
     /* SIGN IN BUTTON */
-    button {
+    /* button {
       position: absolute;
       width: 200px;
       height: 48px;
       left: 50%;
-      top: 40%;
+      top: 40%; */
   
       /* Button Background*/
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FCEE6F 93.22%, rgba(255, 255, 255, 0) 93.23%);
+      /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FCEE6F 93.22%, rgba(255, 255, 255, 0) 93.23%);
       position: absolute;
       width: 400px;
       height: 39px;
@@ -102,9 +102,9 @@
       font-size: 24px;
       line-height: 28px;
     }
-    
+     */
     /* Add a hover effect for buttons */
-    button:hover {
+    /* button:hover {
       opacity: 0.8;
     }
     
@@ -114,5 +114,30 @@
       top: 50%;
       left: 23%;
       opacity: 0.7;
+    } */
+
+    
+    /* .navbar-custom {
+      background-color: #C4C4C4;
+      color: red;
+    } */
+    
+    
+    .grad {
+      height: 95vh;
+      background: linear-gradient(#76Aff1, #FFFFFF);
     }
-  
+    
+    .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+      background-color: #FCEE6F !important;
+      color: black !important;
+    }
+
+    .d-flex{
+      padding: 70px;
+    }
+
+    .input{
+      width: 300px;
+    }
+
