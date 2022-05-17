@@ -16,40 +16,42 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
 </head>
 <body>
   <div class="grad">
-    <!--Navbar -->
-        <!-- Title -->
-        <nav class="navbar navbar-nav navbar-custom fixed-top">
-            <a class="navbar-brand" href="#">
-                <h2 style="color: #FFFFFF">Team Rocket Project</h2>
-            </a>
-        </nav>
-    <!-- Navbar End -->
+    <div class="container">
+      <div class="d-flex justify-content-center">
+            <form>
+              
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword2">Confirm Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+              </div>
+              <button
+                      type="submit"
+                      class="btn btn-primary btn-lg btn-block"
+                      style="
+                        background-image: linear-gradient(#ffffff, #fcee6f);
+                        color: #245ff8;
+                        border-style: none;
+                      "
+                      onclick="onLoginSubmit();"
+                    >Submit</button>
+            </form>
+      </div>
+        <div class="fixed-bottom">
+          <div class="text-center">
+            <img class="pokemonsignup justify-content-center" src="https://raw.githubusercontent.com/IanR9532/Team-Rocket/Front-End/Implementation/imgs/pokemonsignup.png">
+          </div>
+        </div>
     </div>
-
-<div class="Label-Container">
-<h2 class="input-info">Email Address: &nbsp;&nbsp;&nbsp;</h2><br><br>
-<h2 class="input-info">Username: &nbsp;&nbsp;&nbsp;</h2><br><br>
-
-<h2 class="input-info">Password: &nbsp;&nbsp;&nbsp;</h2><br><br>
-
-<h2 class="input-info">Confirm Password: &nbsp;&nbsp;&nbsp;</h2><br><br>
-</div>
-
-<!--put a placeholder action page for now-->
-<form action="/action_page_placeholder.html">
-          
-<input type="emailaddress" id="emailaddress" name="emailaddress" class="emailaddress-field"><br><br>
-<input type="username" id="username" name="username" class="username-field"><br><br>
-<input type="password" id="password" name="password" class="password-field"><br><br>
-<input type="password" id="confirmpassword" name="confirmpassword" class="confirmpassword-field"><br><br>
-</form>
-<button type="submit">Sign Up</button>
-
-<img class="pokemonsignup" src="https://raw.githubusercontent.com/IanR9532/Team-Rocket/Front-End/Implementation/imgs/pokemonsignup.png">
-
+  </div>
 </html>

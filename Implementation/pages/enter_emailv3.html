@@ -1,41 +1,87 @@
-  
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Team Rocket Project</title>
-    <link rel="stylesheet" href="../css/enter_emailv3.css">
-    <link rel="shortcut icon" type="image/jpg" href="../imgs/favicon.ico"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/enter_emailv3.css" />
+    <link rel="shortcut icon" type="image/jpg" href="../imgs/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
-    <header class="grad">
 
-      <nav class="navbar navbar-nav navbar-custom fixed-top">
-        <a class="navbar-brand" href="#">
-            <h2 style="color: #FFFFFF">Team Rocket Project</h2>
-        </a>
-      </nav>
-      
-      
-      <div class="yellow_box">
-        <h2 class = "prompt-text">Enter your email to verify your account</h2>
-        <div class="Label-Container">
-          <h2 class="input-info">Email Address:&nbsp;&nbsp;</h2><br>
-        </div>
-        <form action="../pages/verif_code_page.html">
-          <div class="inputs">
-            <!-- <label for="email_add" class="email-label">Email Address:&nbsp;&nbsp;</label> -->
-            <input type="email" id="email_add" name="email_add" class="field">
+  <body>
+    <nav class="navbar navbar-nav navbar-custom fixed-top">
+      <a class="navbar-brand" href="#">
+        <h2 style="color: #ffffff">Team Rocket Project</h2>
+      </a>
+    </nav>
+    <div class="grad">
+      <div class="container">
+        <br /><br /><br /><br />
+        <div class="d-flex justify-content-center">
+          <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm">
+              <div class="yellow_box" style="margin-top: 50px">
+                <div class="d-flex justify-content-center">
+                  <div class="item item-1">
+                    <br /><br />
+                    <div class="d-flex justify-content-center">
+                      <p style="font-size: 22px">
+                        Enter your email to verify your account
+                      </p>
+                    </div>
+                    <form>
+                      <div class="form-group" style="margin-top: 20px">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email_add"
+                          placeholder="name@example.com"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-center"
+                  style="margin-top: 35px"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg"
+                    style="
+                      background-image: linear-gradient(#ffffff, #fcee6f);
+                      color: #245ff8;
+                      border-style: none;
+                    "
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm"></div>
           </div>
-          <input type="submit" class="button" value="SUBMIT">
-        </form>
+        </div>
       </div>
-    </header>
+    </div>
   </body>
 </html>
