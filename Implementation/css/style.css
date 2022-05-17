@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-custom {
+    background-color: #C4C4C4;
+    color: red;
+  }
+  
+  
+  .grad {
+    height: 95vh;
+    background: linear-gradient(#76Aff1, #FFFFFF);
+  }
+  
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #FCEE6F !important;
+    color: black !important;
+  }
